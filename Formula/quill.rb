@@ -2,28 +2,28 @@
 class Quill < Formula
   desc "Code intelligence MCP server for JVM projects"
   homepage "https://github.com/treblereel/quill"
-  version "0.2.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/treblereel/quill/releases/download/v0.2.0/quill-macos-aarch64.tar.gz"
-      sha256 "abea9335bcc44da1a7279d8025e6b1609f46e83c0a7505a6fac0352f544e695d"
+      url "https://github.com/treblereel/quill/releases/download/v0.3.1/quill-macos-aarch64.tar.gz"
+      sha256 "416f055158aa237d0d7ec13e1510c8a5117fa0727a29d1f5fd708a3c1deb495f"
     end
     on_intel do
-      url "https://github.com/treblereel/quill/releases/download/v0.2.0/quill-macos-x86_64.tar.gz"
-      sha256 "b405204acc1d72bce8f6d46c3681d891010408adba7d7c53809887aab83e5a94"
+      url "https://github.com/treblereel/quill/releases/download/v0.3.1/quill-macos-x86_64.tar.gz"
+      sha256 "8dcf3b300b8bbd7e4977a9405262f3d2eb9e70aa5638b816f8f1a98d54bce5d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/treblereel/quill/releases/download/v0.2.0/quill-linux-aarch64.tar.gz"
-      sha256 "7b038d9dfec6a6f67b4cf605fd5f04239700ce3e2ad5cb3db21206c88d31d642"
+      url "https://github.com/treblereel/quill/releases/download/v0.3.1/quill-linux-aarch64.tar.gz"
+      sha256 "8ca683c861bfd93d5fbd1b914c0599826bde280a85f24e5799923f8f16088762"
     end
     on_intel do
-      url "https://github.com/treblereel/quill/releases/download/v0.2.0/quill-linux-x86_64.tar.gz"
-      sha256 "95e36749863e6d02d03baea2891c94d05e82458839a3f1f0fb79be0b024585e0"
+      url "https://github.com/treblereel/quill/releases/download/v0.3.1/quill-linux-x86_64.tar.gz"
+      sha256 "e7fd9de7c8f89c222e749c2ce8dca5dbf52378316f014d5d3a0bfe35b03c2e9c"
     end
   end
 
