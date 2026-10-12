@@ -1,6 +1,11 @@
 # Quill Homebrew tap
 
+[![Test Quill Formula](https://github.com/treblereel/homebrew-quill/actions/workflows/test.yml/badge.svg)](https://github.com/treblereel/homebrew-quill/actions/workflows/test.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 Native [Quill](https://github.com/treblereel/quill) binaries for macOS and Linux, on Apple Silicon / ARM64 and Intel / AMD64.
+
+Quill is a native code intelligence MCP server for JVM projects. This tap distributes its prebuilt release binaries through Homebrew.
 
 ## Install
 
@@ -36,4 +41,8 @@ The [Quill release workflow](https://github.com/treblereel/quill/blob/main/.gith
 
 See [distribution setup](https://github.com/treblereel/quill/blob/main/packaging/homebrew/README.md) for the release and token setup instructions.
 
-Quill is licensed under Apache-2.0.
+## Support
+
+For Quill usage and configuration, see the [main project](https://github.com/treblereel/quill). Report analysis and runtime issues in [Quill](https://github.com/treblereel/quill/issues); report formula or Homebrew installation issues in [this tap](https://github.com/treblereel/homebrew-quill/issues).
+
+Quill is licensed under [Apache-2.0](LICENSE).
